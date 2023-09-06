@@ -1,0 +1,25 @@
+ul {
+    list-style-image: url("https://img.icons8.com/?size=20&id=2897&format=png");
+}
+
+ul ul {
+    list-style-image: url("https://img.icons8.com/?size=20&id=2854&format=png");
+}
+
+ol {
+    list-style-type: arabic-indic;
+}
+
+ol ol {
+    list-style-type: lower-alpha;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+table tr td, th{
+    border: 1px solid;
+    alignment: center;
+}

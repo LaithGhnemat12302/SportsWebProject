@@ -1,0 +1,128 @@
+h1{
+    text-align: center;
+    color:rgb(38, 63, 46);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  rgb(238, 251, 238);
+}
+p{
+    text-align: center;
+    color:rgb(38, 63, 46);
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.edit-link {
+    display: flex;
+    justify-content: center;
+}
+
+.player-list {
+    padding-left: 50px;
+}
+
+.logout-link {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c1ffc2;
+  }
+  
+  li {
+    float: left;
+    text-align: center;
+    margin-right: 40px;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(38, 63, 46);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #d4ffdc;
+  }
+
+  nav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(102, 186, 143);
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-size: medium;
+    font-weight: bolder;
+
+}
+
+table{
+    font-size: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px black;
+    border-collapse: collapse;
+    border-spacing: 50px;
+}
+
+th {
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px;
+    border-spacing: 10px;
+    
+}
+
+td {
+    border: 3px solid black;
+    padding: 10px;
+    
+}
+
+#button{
+    display: block;
+    margin: 0 auto;
+    font-size: large;
+    border: solid black;
+    width: 500px;
+    font-weight:bold;
+    background-color: #c1ffc2;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.951);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    font-size: 33px;
+    border: 2px solid black;
+}
+
+.container {
+    margin-top: 20px; 
+    margin-left: 200px;
+    text-align: center;
+}
+
+.containerFoot {
+    margin-top: 300px; 
+    margin-left: 200px;
+    text-align:end;
+}
+
+header, footer{
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+}
